@@ -6,6 +6,11 @@ div.container {
 }
 
 div.box {
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
