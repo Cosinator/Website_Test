@@ -1,8 +1,10 @@
 div.container {
+    height: 500px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-content: center;
+    background-color: orange;
 }
 
 div.box {
