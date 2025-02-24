@@ -1,3 +1,12 @@
-body {
-    background-color: red;
+div.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
