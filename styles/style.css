@@ -16,4 +16,11 @@ div.box {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+div.box:active{
+    opacity: 0;
+    width: 500px;
+    transition: ease-in-out 2s;
 }
